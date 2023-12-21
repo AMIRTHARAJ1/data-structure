@@ -1,0 +1,14 @@
+ #include <stdio.h>
+
+int main() {
+	printf("Amirtharaj.k\n192321112\n");
+    int element = 5;
+    int array[2] = {element, element};
+    
+     for (int i = 0; i < 2; i++) {
+        printf("%d ", array[i]);
+    }
+    
+    return 0;
+}
+C:\Users\New\Pictures\Screenshots\Screenshot (30).png
