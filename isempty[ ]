@@ -1,0 +1,24 @@
+ #include <stdio.h>
+#define MAX_SIZE 100
+
+int stack[MAX_SIZE];
+int top = -1;
+
+int isEmpty() {
+    if (top == -1) {
+        return 1;  
+    } else {
+        return 0;  
+    }
+}
+
+int main() {
+	printf("Amirtharaj.k\n192321112\n");
+    if (isEmpty()) {
+        printf("Stack is empty\n");
+    } else {
+        printf("Stack is not empty\n");
+    }
+    return 0;
+}
+C:\Users\New\Pictures\Screenshots\Screenshot (35).png
