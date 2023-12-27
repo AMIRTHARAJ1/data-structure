@@ -1,0 +1,35 @@
+  #include <stdio.h>
+#define MAX_SIZE 100
+
+int stack[MAX_SIZE];
+int top = -1;
+
+void push(int item) {
+    if (top == MAX_SIZE - 1) {
+        printf("Stack Overflow\n");
+        return;
+    }
+    stack[++top] = item;
+}
+
+int pop() {
+    if (top == -1) {
+        printf("Stack Underflow\n");
+        return -1;
+    }
+    return stack[top--];
+}
+
+int main() {
+	printf("Amirtharaj.k\n192321112\n");
+    push(10);
+    push(20);
+    push(30);
+
+    printf("Popped item: %d\n", pop());
+    printf("Popped item: %d\n", pop());
+    printf("Popped item: %d\n", pop());
+
+    return 0;
+}
+C:\Users\New\Pictures\Screenshots\Screenshot (35).png
