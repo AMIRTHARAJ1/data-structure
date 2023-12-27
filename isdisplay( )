@@ -1,0 +1,25 @@
+ #include <stdio.h>
+#define MAX_SIZE 100
+
+int stack[MAX_SIZE];
+int top = -1;
+
+void Display() {
+    if (top == -1) {
+        printf("Stack is empty.\n");
+        return;
+    }
+
+    printf("Stack elements: ");
+    for (int i = top; i >= 0; i--) {
+        printf("%d ", stack[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+printf("Amirtharaj.k\n912321112\n");
+    Display();  
+    return 0;
+}
+C:\Users\New\Pictures\Screenshots\Screenshot (37).png
